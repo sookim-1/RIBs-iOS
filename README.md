@@ -2,9 +2,7 @@
 <img src="https://github.com/uber/ribs/blob/assets/rib_horizontal_black.png" width="60%" height="60%" alt="RIBs"/>
 </p>
 
-[![Android CI](https://github.com/uber/RIBs/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/uber/RIBs/actions/workflows/android.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Maven Central](https://img.shields.io/maven-central/v/com.uber.rib/rib-android.svg)](https://search.maven.org/artifact/com.uber.rib/rib-android)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/RIBs.svg)](https://cocoapods.org/pods/ribs)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg)](https://github.com/Carthage/Carthage)
 
@@ -42,20 +40,6 @@ There are some other novel things about RIBs. However, these could also be imple
 2. Integrate using your preferred installation mechanism
 
 For usage of the tooling built around RIBs, please see the [Tooling section](https://github.com/uber/RIBs/wiki#rib-tooling) in our documentation.
-
-## Installation for Android
-
-To integrate the recommended minimum setup for RIBs add the following to your `build.gradle`:
-
-```gradle
-dependencies {
-  annotationProcessor 'com.uber.rib:rib-compiler-test:0.16.3'
-  implementation 'com.uber.rib:rib-android:0.16.3'
-  testImplementation 'com.uber.rib:rib-test:0.16.3'
-}
-```
-There are a number of extension packages available as well including Kotlin extensions, Jetpack Compose support, Coroutines support
-
 
 ## Installation for iOS
 #### CocoaPods
