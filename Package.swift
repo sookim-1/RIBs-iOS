@@ -10,18 +10,18 @@ let package = Package(
         .library(name: "RIBs", targets: ["RIBs"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.0.0"),
+        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.5.0"),
     ],
     targets: [
         .target(
             name: "RIBs",
             dependencies: ["RxSwift", "RxRelay"],
-            path: "ios/RIBs"
+            path: "RIBs"
         ),
         .testTarget(
             name: "RIBsTests",
             dependencies: ["RIBs"],
-            path: "ios/RIBsTests"
+            path: "RIBsTests"
         ),
     ]
 )
