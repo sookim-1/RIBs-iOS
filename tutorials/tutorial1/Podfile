@@ -8,7 +8,7 @@ target 'TicTacToe' do
 
   # Pods for TicTacToe
   pod 'RIBs', :path => '../../'
-  pod 'SnapKit', '~> 5.0.0'
+  pod 'SnapKit', '~> 4.0.0'
   pod 'RxCocoa', '~> 6.5'
 
 end
